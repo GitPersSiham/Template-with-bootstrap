@@ -1,0 +1,255 @@
+
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+h1, h5, 
+{
+  letter-spacing: 6px;
+  color: #444;
+  margin-bottom: 3rem;
+}
+
+/* HOME */
+.span-heading
+{
+  color:grey;   
+}
+
+#home p
+{
+    letter-spacing: 2px;
+    color: #686868;
+}
+
+.btn-group-lg>.btn, .btn-lg
+{
+    color: aliceblue;
+    padding: 20px;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("../images/hero-bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+/* features */
+
+.features {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+/* features-icons */
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+hr
+{
+  width: 5rem;
+  border: 3px solid #17a2b8;
+ 
+}
+
+/* Image Showcases */
+
+.bg-iphone
+{
+    background:#E8E8E8 ;
+}
+.carousel-inner
+{
+   padding:  3rem 2rem;
+    
+}
+
+
+/* masthead-2 */
+
+ .masthead-2
+{
+  position: relative;
+  background: url("../images/plants-bg.jpg") no-repeat center center; 
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.masthead-2 .overlay {
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+.masthead-2 h1 
+{
+    
+  color: ghostwhite;
+ 
+
+}
+.masthead-2 p 
+{
+  color: ghostwhite;  
+  
+}
+ /* testimonilas */
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+}
+.glyficons 
+{
+   margin-top: 20px; 
+    
+}
+@media (max-width: 768px) {
+  .fab {
+    padding-bottom: 2rem !important;
+  }
+}
+   
+/* Portfolios */
+
+.portfolios
+{
+    
+  padding: 3rem 2rem;
+}
+
+.portfolio-img
+{
+  display: block;
+  width: 100%;
+  transition:all 0.3s linear;
+  border-radius: 5px solid transparent;
+    
+}
+.portfolio-img:hover
+{
+    
+  box-shadow:4px 10px 5px 0px rgba( 0,0,0, 0.5) ;  
+}
+
+
+
+/* Call to Action */
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("../images/keyboard-bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+
+
+/* FOOTER */
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.link
+{
+  color: #17a2b8;  
+    
+}
