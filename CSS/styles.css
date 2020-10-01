@@ -106,6 +106,7 @@ header.masthead h1 {
 
 .features-icons .features-icons-item {
   max-width: 20rem;
+  background: white;
 }
 
 .features-icons .features-icons-item .features-icons-icon {
